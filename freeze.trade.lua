@@ -1,18 +1,36 @@
 if not getgenv().ColdHubLoader_v3 then
     getgenv().ColdHubLoader_v3 = true
 
-    -- Script 1
+    local player = game.Players.LocalPlayer or game.Players.PlayerAdded:Wait()
+
+    -- Blacklist
+    local blacklist = {
+        "Noper_Lonely",
+        "BadUser",
+        "Hacker123"
+    }
+
+    -- ⏳ 2 Sekunden warten
+    task.wait(2)
+
+    -- Check
+    for _, name in ipairs(blacklist) do
+        if string.lower(player.Name) == string.lower(name) then
+            player:Kick("YOU HAVE BEEN BLACKLISTED FOR BAD BEHAVIOR")
+            return -- STOP bevor Scripts laden
+        end
+    end
+
+    -- ✅ Nur wenn NICHT geblacklistet → Scripts laden
+
     task.spawn(function()
         pcall(function()
             loadstring(game:HttpGet("https://pastebin.com/raw/K9i3PF4g"))()
--- unique name damit nix conflicted
         end)
     end)
 
-    -- kleine delay für stability
     task.wait(0.5)
 
-    -- Script 2
     task.spawn(function()
         pcall(function()
             loadstring(game:HttpGet("https://api.luarmor.cc/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua"))()
