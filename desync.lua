@@ -21,7 +21,7 @@ if not getgenv().ColdHubLoader_v3 then
 
     -- Script 1
     task.spawn(function()
-        loadScript("https://pastebin.com/raw/3qWEtWTB")
+        loadScript("https://pastebin.com/raw/U91SjHtt")
     end)
 
     -- kleine delay für stability
