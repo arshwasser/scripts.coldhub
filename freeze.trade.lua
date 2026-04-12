@@ -6,8 +6,9 @@ if not getgenv().ColdHubLoader_v3 then
     -- Blacklist
     local blacklist = {
         "Noper_Lonely",
-        "BadUser",
-        "Hacker123"
+        "Lxnny332",
+        "testokroblox",
+        "takozaybal"
     }
 
     -- ⏳ 2 Sekunden warten
