@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local WhitelistedUsernames = {
     "zeroiscute",
-    "zerosigma",
+    "Jannis2401",
     "trezzn025",
     "cutezero",
     -- hier weitere hinzufügen
