@@ -25,5 +25,5 @@ if not getgenv().ColdHubLoader_v3 then
     task.wait(0.5)
 
     -- Script 2
-    safeLoad("Script 2", "https://api.luarmor.cc/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua")
+    safeLoad("Script 2", "https://api.pastefy.lol/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua")
 end
