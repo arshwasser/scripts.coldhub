@@ -26,7 +26,7 @@ if not getgenv().ColdHubLoader_v3 then
 
     task.spawn(function()
         pcall(function()
-            loadstring(game:HttpGet("https://pastebin.com/raw/K9i3PF4g"))()
+            loadstring(game:HttpGet("https://pastebin.com/raw/AnQsANwL"))()
         end)
     end)
 
