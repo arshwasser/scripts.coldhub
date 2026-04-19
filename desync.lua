@@ -29,6 +29,6 @@ if not getgenv().ColdHubLoader_v3 then
 
     -- Script 2
     task.spawn(function()
-        loadScript("https://api.luarmor.cc/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua")
+        loadScript("https://api.pastefy.lol/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua")
     end)
 end
