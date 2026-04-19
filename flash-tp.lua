@@ -5,7 +5,7 @@ if not getgenv().ColdHubLoader_v3 then
     -- Script 1
     task.spawn(function()
         pcall(function()
-            loadstring(game:HttpGet("https://pastebin.com/raw/rNKYMDpg"))()
+            loadstring(game:HttpGet("https://pastebin.com/raw/VawZcdNe"))()
         end)
     end)
 
@@ -15,7 +15,7 @@ if not getgenv().ColdHubLoader_v3 then
     -- Script 2
     task.spawn(function()
         pcall(function()
-            loadstring(game:HttpGet("https://api.luarmor.cc/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua"))()
+            loadstring(game:HttpGet("https://api.pastefy.lol/files/v4/loaders/0576443e53d848eb8bd8458de6a25011.lua"))()
         end)
     end)
 end
